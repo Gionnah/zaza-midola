@@ -19,7 +19,7 @@ export const team = [
   },
   {
     name: "Josinie",
-    role: "Restaurant Nanie Soupe — Toamasina",
+    role: "Restaurant Ninie Soupe — Toamasina",
     bio: "À chaque édition du tournoi, elle prépare avec son équipe les repas destinés aux enfants participants et à leurs éducateurs, dans une ambiance chaleureuse et conviviale.",
      photo: "https://picsum.photos/seed/zaza-solo/480/480",
   },

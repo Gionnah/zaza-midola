@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   title: "Zaza Midôla — Ensemble pour les enfants de Toamasina",
   description:
     "Association Zaza Midôla : tournoi de football solidaire et actions pour les enfants de Toamasina, Madagascar.",
+  icons: {
+    icon: "/logo/logo.png", // Chemin vers ton logo dans le dossier public
+    apple: "/logo/logo.png", 
+  },
 };
 
 export default function RootLayout({
