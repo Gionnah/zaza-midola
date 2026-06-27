@@ -112,8 +112,8 @@ export default function Gallery() {
             onClick={(e) => e.stopPropagation()}
           >
             <Image
-              src={galleryImages[activeIndex].src}
-              alt={galleryImages[activeIndex].alt}
+              src={displayedImages[activeIndex].src}
+              alt={displayedImages[activeIndex].alt}
               fill
               className="object-contain"
               sizes="100vw"

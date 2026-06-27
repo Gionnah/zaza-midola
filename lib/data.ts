@@ -21,7 +21,7 @@ export const team = [
     name: "Josinie",
     role: "Restaurant Ninie Soupe — Toamasina",
     bio: "À chaque édition du tournoi, elle prépare avec son équipe les repas destinés aux enfants participants et à leurs éducateurs, dans une ambiance chaleureuse et conviviale.",
-     photo: "https://picsum.photos/seed/zaza-solo/480/480",
+     photo: "/equipes/josinie.jpg",
   },
   {
     name: "Tonton Solo & Madame Simonelle",
@@ -33,7 +33,7 @@ export const team = [
     name: "Les bénévoles",
     role: "France & Madagascar",
     bio: "Ils participent à l'organisation des événements et aux actions solidaires, en France comme à Madagascar.",
-    photo: "https://picsum.photos/seed/zaza-benevoles/480/480",
+    photo: "/benevoles/benevoles.png",
   },
 ];
 
