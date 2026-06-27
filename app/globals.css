@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fbf8f3;
+  color: #23262a;
+}
+
+/* ---------- Visible focus state ---------- */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #e8a23a;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ---------- Hero animated background ---------- */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: linear-gradient(180deg, #fdf6ea 0%, #fbf0dc 38%, #f6e0bd 62%, #eccf9e 100%);
+}
+
+.hero-blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(60px);
+  opacity: 0.55;
+  will-change: transform;
+}
+
+.hero-blob.b1 {
+  width: 46vw;
+  height: 46vw;
+  left: -10%;
+  top: -12%;
+  background: radial-gradient(circle at 30% 30%, #4fa873, transparent 70%);
+}
+
+.hero-blob.b2 {
+  width: 38vw;
+  height: 38vw;
+  right: -8%;
+  top: 8%;
+  background: radial-gradient(circle at 60% 40%, #e2574a, transparent 70%);
+}
+
+.hero-blob.b3 {
+  width: 50vw;
+  height: 50vw;
+  left: 20%;
+  bottom: -22%;
+  background: radial-gradient(circle at 50% 50%, #f4c272, transparent 70%);
+}
+
+/* Horizon line evoking the sea front at Toamasina */
+.hero-horizon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 16%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(35, 38, 42, 0.18), transparent);
+}
+
+/* Ball-trajectory signature element: a dotted arc that travels across the hero */
+.ball-path {
+  offset-path: path("M -5 78 C 25 8, 75 8, 105 78");
+  offset-rotate: 0deg;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-blob,
+  .ball-path,
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------- Subtle grain texture overlay for warmth ---------- */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f3f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c7b89a;
+  border-radius: 6px;
+}
