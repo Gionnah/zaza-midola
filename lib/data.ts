@@ -9,13 +9,13 @@ export const team = [
     name: "Christophe Picot",
     role: "Trésorier",
     bio: "Présent depuis le début de cette aventure, il apporte son soutien moral, sa confiance et son aide financière qui participent activement à la réalisation des projets de l'association.",
-    photo: "https://picsum.photos/seed/zaza-christophe/480/480",
+    photo: "/equipes/picot.jpg",
   },
   {
     name: "Yves Rosati",
     role: "Secrétaire",
     bio: "Passionné de football et fidèle soutien de l'association, il contribue au développement du projet grâce à son accompagnement, ses conseils et son réseau.",
-    photo: "https://picsum.photos/seed/zaza-yves/480/480",
+    photo: "/equipes/rosati.jpg",
   },
   {
     name: "Josinie",
@@ -48,13 +48,13 @@ export const supporters = [
     name: "Christophe Picot",
     role: "Soutien financier",
     bio: "Présent depuis le début de cette aventure, il apporte son soutien moral, sa confiance et son aide financière.",
-    photo: "https://picsum.photos/seed/zaza-christophe2/400/400",
+    photo: "/equipes/picot.jpg",
   },
   {
     name: "Yves Rosati",
     role: "Conseils & réseau",
     bio: "Passionné de football et fidèle soutien de l'association, il contribue au développement du projet grâce à son accompagnement.",
-    photo: "https://picsum.photos/seed/zaza-yves2/400/400",
+    photo: "/equipes/rosati.jpg",
   },
 ];
 
