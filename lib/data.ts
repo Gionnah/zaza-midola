@@ -8,24 +8,6 @@ export const team = [
     photo: "https://picsum.photos/seed/zaza-aurelie/480/480",
   },
   {
-    name: "Christophe Picot",
-    role: "Trésorier",
-    bio: "Présent depuis le début de cette aventure, il apporte son soutien moral, sa confiance et son aide financière qui participent activement à la réalisation des projets de l'association.",
-    photo: "/equipes/picot.jpg",
-  },
-  {
-    name: "Yves Rosati",
-    role: "Secrétaire",
-    bio: "Passionné de football et fidèle soutien de l'association, il contribue au développement du projet grâce à son accompagnement, ses conseils et son réseau.",
-    photo: "/equipes/rosati.jpg",
-  },
-  {
-    name: "Josinie",
-    role: "Restaurant Ninie Soupe — Toamasina",
-    bio: "À chaque édition du tournoi, elle prépare avec son équipe les repas destinés aux enfants participants et à leurs éducateurs, dans une ambiance chaleureuse et conviviale.",
-    photo: "/equipes/josinie.jpg",
-  },
-  {
     name: "Tonton Solo & Madame Simonelle",
     role: "Organisation sur le terrain",
     bio: "Ils consacrent beaucoup de temps et d'énergie à la préparation du tournoi : infrastructures sportives et démarches administratives sur place à Toamasina.",
@@ -40,22 +22,28 @@ export const team = [
 ];
 
 export const supporters = [
+  // {
+  //   name: "Patrick Cazaux",
+  //   role: "Gravoplast Pau",
+  //   bio: "L’association Zaza Midôla tient à adresser ses plus sincères remerciements à Monsieur Patrick Cazaux, de l’entreprise Gravoplast à Pau. Depuis la première édition du tournoi, il nous accompagne avec une grande générosité en réalisant et en offrant les médailles, les trophées, les coupes ainsi que les gravures destinées à récompenser les jeunes participants. Grâce à son soutien fidèle, les enfants de Toamasina repartent chaque année avec de beaux souvenirs de leur participation au tournoi.",
+  //   photo: "https://picsum.photos/seed/zaza-patrick/400/400",
+  // },
   {
-    name: "Patrick Cazaux",
-    role: "Gravoplast Pau",
-    bio: "Depuis la première édition du tournoi, il accompagne l'association avec générosité en réalisant et offrant les médailles, trophées, coupes et gravures destinés aux jeunes participants.",
-    photo: "https://picsum.photos/seed/zaza-patrick/400/400",
+    name: "Josinie",
+    role: "Restaurant Ninie Soupe — Toamasina",
+    bio: "À chaque édition du tournoi, elle prépare avec son équipe les repas destinés aux enfants participants et à leurs éducateurs, dans une ambiance chaleureuse et conviviale.",
+    photo: "/equipes/josinie.jpg",
   },
   {
     name: "Christophe Picot",
     role: "Soutien financier",
-    bio: "Présent depuis le début de cette aventure, il apporte son soutien moral, sa confiance et son aide financière.",
+    bio: "Je souhaite remercier tout particulièrement mon mari, Christophe Picot, pour son soutien indéfectible depuis le début de cette aventure. Par son soutien moral, sa confiance et son aide financière, il contribue activement à la réalisation des projets de l’association. Sa présence à mes côtés est une force précieuse qui me permet de poursuivre cette belle mission auprès des enfants de Toamasina.",
     photo: "/equipes/picot.jpg",
   },
   {
     name: "Yves Rosati",
     role: "Conseils & réseau",
-    bio: "Passionné de football et fidèle soutien de l'association, il contribue au développement du projet grâce à son accompagnement.",
+    bio: "L’association remercie également chaleureusement Yves Rosati, passionné de football et fidèle soutien de Zaza Midôla. Depuis plusieurs années, il m’accompagne dans le développement du projet en apportant son aide, ses conseils et son réseau. Grâce à son implication, nous avons pu bénéficier de soutiens matériels et financiers qui contribuent à la réussite de nos actions en faveur des enfants.",
     photo: "/equipes/rosati.jpg",
   },
 ];

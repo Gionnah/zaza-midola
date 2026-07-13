@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 
 export default function Histoire() {
   return (
-    <section id="histoire" className="relative bg-nacre py-24 sm:py-32">
+    <section id="histoire" className="relative bg-nacre py-24 sm:py-32 text-justify">
       <div className="mx-auto grid max-w-6xl gap-14 px-6 lg:grid-cols-2 lg:items-center lg:gap-20">
         <Reveal>
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl">
@@ -33,18 +33,17 @@ export default function Histoire() {
 
           <Reveal delay={0.1} className="mt-6 space-y-4 text-ardoise-700">
             <p>
-              En 2022, lors de la préparation d'un voyage familial à
-              Madagascar, je cherchais une idée originale de cadeau
-              d'anniversaire pour mon fils, passionné de football. Je
-              souhaitais lui offrir bien plus qu'un objet : une expérience
-              porteuse de valeurs et de souvenirs.
+              L’histoire de Zaza Midôla a commencé en 2022, lors de la préparation d’un voyage familial à Madagascar.
+              À cette période, je cherchais une idée originale de cadeau d’anniversaire pour mon fils, passionné de football.
+              Je souhaitais lui offrir bien plus qu’un cadeau matériel : une expérience unique, porteuse de valeurs et de souvenirs.
             </p>
             <p>
-              C'est ainsi qu'est née l'idée d'organiser un tournoi de
-              football pour les enfants de ma ville natale,{" "}
-              <strong className="text-ardoise-900">Toamasina</strong>. Ce qui
-              devait être un simple cadeau est rapidement devenu une
-              magnifique aventure humaine.
+              C’est alors qu’une idée m’est venue : organiser un tournoi de football pour les enfants de ma ville natale,{" "}
+              <strong className="text-ardoise-900">Toamasina</strong>.
+              Ce projet a donné naissance à la première édition de <strong className="text-ardoise-900">Zaza Midôla</strong>.
+
+              Ce qui devait être au départ un cadeau d’anniversaire est rapidement devenu une magnifique aventure humaine.
+              Voir la joie des enfants, leur enthousiasme et leur passion pour le football m’a profondément touchée.
             </p>
             <p>
               Face au succès de cette première édition, une deuxième a suivi
@@ -52,10 +51,8 @@ export default function Histoire() {
               troisième édition, prévue en décembre 2026.
             </p>
             <p>
-              Afin de donner une structure durable à cette initiative,
-              l'association{" "}
-              <strong className="text-ardoise-900">Zaza Midôla</strong> a été
-              officiellement créée le 30 juillet 2025.
+              Afin de donner une structure durable à cette initiative et de développer de nouvelles actions solidaires,
+              l’association Zaza Midôla a été officiellement créée le <strong className="text-ardoise-900">30 juillet 2025</strong>. 
             </p>
           </Reveal>
 

@@ -17,8 +17,8 @@ export default function Home() {
       <Histoire />
       <Valeurs />
       <Actions />
-      <Team />
       <Soutiens />
+      <Team />
       <Gallery />
       <Contact />
       <Footer />
