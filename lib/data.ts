@@ -1,4 +1,17 @@
 // lib/data.ts
+export type TimelineMedia = {
+  type: "image" | "video";
+  src: string;
+  poster?: string;     // uniquement pour les vidéos : image d'aperçu
+  caption?: string;    // légende (ex : "Les vainqueurs de la 1ère édition")
+};
+
+export type TimelineItem = {
+  year: string;
+  title: string;
+  text: string;
+  media?: TimelineMedia;
+};
 
 export const team = [
   {
@@ -67,16 +80,28 @@ export const values = [
   },
 ];
 
-export const timeline = [
+export const timeline: TimelineItem[] = [
   {
     year: "2022",
     title: "Première édition",
     text: "Un cadeau d'anniversaire devient une aventure humaine : naissance du tournoi à Toamasina.",
+    media: {
+      type: "video",
+      src: "/vainqueurs/winner-1.mp4",
+      poster: "/vainqueurs/winner-1-poster.jpg",
+      caption: "Les vainqueurs de la 1ʳᵉ édition — Toamasina, 2022",
+    },
   },
   {
     year: "2024",
     title: "Deuxième édition",
     text: "Face au succès de la première édition, le tournoi revient avec encore plus d'enfants et de bénévoles.",
+    media: {
+      type: "video",
+      src: "/vainqueurs/winner-2.mp4",
+      poster: "/vainqueurs/winner-2-poster.jpg",
+      caption: "Remise des trophées — édition 2024",
+    },
   },
   {
     year: "30 juillet 2025",
@@ -84,12 +109,11 @@ export const timeline = [
     text: "Zaza Midôla devient officiellement une association (RNA : W643013903) pour pérenniser le projet.",
   },
   {
-    year: "Déc. 2026",
+    year: "à venir",
     title: "Troisième édition",
     text: "Une nouvelle édition se prépare, avec toujours plus d'ambition solidaire.",
   },
 ];
-
 export const stats = [
   { value: "3", label: "éditions du tournoi" },
   { value: "2022", label: "année de création" },
