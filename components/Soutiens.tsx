@@ -8,7 +8,7 @@ export default function Soutiens() {
       <div className="mx-auto max-w-6xl px-6">
         <Reveal className="mx-auto max-w-2xl text-center">
           <span className="text-sm font-semibold uppercase tracking-wide text-vahiny">
-            Nos soutiens
+            Nos soutiens & fondatrices
           </span>
           <h2 className="mt-3 font-display text-3xl font-semibold text-ardoise-900 sm:text-4xl">
             Ils nous accompagnent
