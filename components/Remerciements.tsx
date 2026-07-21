@@ -23,7 +23,7 @@ export default function Remerciements() {
   return (
     <section
       id="remerciements"
-      className="relative overflow-hidden bg-ardoise-50/50 py-24 sm:py-32"
+      className="relative overflow-hidden text-justify bg-ardoise-50/50 py-24 sm:py-32"
     >
       {/* Ornement de fond — guillemet décoratif */}
       <span
@@ -74,7 +74,7 @@ export default function Remerciements() {
           {personnes.map((p, i) => (
             <Reveal key={p.titre} delay={0.08 + i * 0.1}>
               <div className="relative bg-nacre px-7 py-6 shadow-sm">
-                <h3 className="font-display text-xl font-semibold text-ardoise-900">
+                <h3 className="font-display text-xl text-center font-semibold text-ardoise-900">
                   {p.titre}
                 </h3>
                 <div className="mt-4 space-y-3 text-ardoise-700">
