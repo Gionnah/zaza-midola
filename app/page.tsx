@@ -8,6 +8,7 @@ import Soutiens from "@/components/Soutiens";
 import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Remerciements from "@/components/Remerciements";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Actions />
       <Soutiens />
       <Team />
+      <Remerciements />
       <Gallery />
       <Contact />
       <Footer />

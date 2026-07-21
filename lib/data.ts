@@ -15,10 +15,10 @@ export type TimelineItem = {
 
 export const team = [
   {
-    name: "Aurélie Soanimino Radomiarisoa épouse Picot",
-    role: "Fondatrice et Présidente",
-    bio: "Originaire de Toamasina (Madagascar) et résidant à Pau, elle est à l'origine du projet Zaza Midôla depuis sa première édition en 2022.",
-    photo: "https://picsum.photos/seed/zaza-aurelie/480/480",
+    name: "Josinie",
+    role: "Restaurant Ninie Soupe — Toamasina",
+    bio: "À chaque édition du tournoi, elle prépare avec son équipe les repas destinés aux enfants participants et à leurs éducateurs, dans une ambiance chaleureuse et conviviale.",
+    photo: "/equipes/josinie.jpg",
   },
   {
     name: "Tonton Solo & Madame Simonelle",
@@ -42,10 +42,10 @@ export const supporters = [
   //   photo: "https://picsum.photos/seed/zaza-patrick/400/400",
   // },
   {
-    name: "Josinie",
-    role: "Restaurant Ninie Soupe — Toamasina",
-    bio: "À chaque édition du tournoi, elle prépare avec son équipe les repas destinés aux enfants participants et à leurs éducateurs, dans une ambiance chaleureuse et conviviale.",
-    photo: "/equipes/josinie.jpg",
+    name: "Aurélie Soanimino Radomiarisoa épouse Picot",
+    role: "Fondatrice et Présidente",
+    bio: "Originaire de Toamasina (Madagascar) et résidant à Pau, elle est à l'origine du projet Zaza Midôla depuis sa première édition en 2022.",
+    photo: "/fondatrice/aurelie.jpg",
   },
   {
     name: "Christophe Picot",
